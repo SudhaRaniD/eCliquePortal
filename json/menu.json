@@ -1,0 +1,56 @@
+[
+    {
+        "id" : "001",
+        "name": "Computers",
+        "brands" : [
+            { "brandid":"001-01", "name":"Samsung",
+                "modelInfo" : [
+                    {"modelid":"001-01-01", "imageid": "samsun_laptop.jfif", "brandDescription" : "This is samsung brand 1", "brandUrl" : "laptop1.html", "brandPrice" : "£500"},
+                    {"modelid":"001-01-02", "imageid": "samsun_laptop.jfif", "brandDescription" : "This is samsung brand 2", "brandUrl" : "laptop1.html", "brandPrice" : "£600"}
+                ]
+            },
+            { "brandid":"001-02", "name": "Lenevo",
+                "modelInfo" : [
+                    {"modelid":"001-02-01", "imageid": "samsun_laptop.jfif", "brandDescription" : "This is Lenevo brand 1", "brandUrl" : "", "brandPrice" : "£800"},
+                    {"modelid":"001-02-02", "imageid": "samsun_laptop.jfif", "brandDescription" : "This is Lenevo brand 2", "brandUrl" : "", "brandPrice" : "£900"}
+                ]
+            },
+            { "brandid":"001-03", "name": "HP",
+                "modelInfo" : [
+                    {"modelid":"001-03-01", "imageid": "HP_Laptop.jfif", "brandDescription" : "This is HP brand 1", "brandUrl" : "laptop.html", "brandPrice" : "£500"},
+                    {"modelid":"001-03-02", "imageid": "HP_Laptop.jfif", "brandDescription" : "This is HP brand 2", "brandUrl" : "laptop.html", "brandPrice" : "£500"}
+                ]
+            },
+            { "brandid":"001-04", "name": "Dell",
+                "modelInfo" : [
+                    {"modelid":"001-04-01", "imageid": "HP_Laptop.jfif", "brandDescription" : "This is Dell brand 1"},
+                    {"modelid":"001-04-02", "imageid": "HP_Laptop.jfif", "brandDescription" : "This is Dell brand 2"}
+                ]
+            }
+        ]
+    },
+    {
+        "id" : "002",
+        "name": "Mobiles",
+        "brands" : [
+            { "brandid":"002-01", "name":"Samsung",
+                "modelInfo" : [
+                    {"modelid":"002-01-01", "imageid": "samsun_laptop.jfif", "brandDescription" : "This is samsung brand 1", "brandUrl" : "laptop1.html", "brandPrice" : "£500"},
+                    {"modelid":"002-01-02", "imageid": "samsun_laptop.jfif", "brandDescription" : "This is samsung brand 2", "brandUrl" : "laptop1.html", "brandPrice" : "£600"}
+                ]
+            },
+            { "brandid":"002-02", "name": "iPhone",
+                "modelInfo" : [
+                    {"modelid":"002-02-01", "imageid": "iPhone13Pro.jpg", "brandDescription" : "This is iPhone 6s", "brandUrl" : "", "brandPrice" : "£800"},
+                    {"modelid":"002-02-02", "imageid": "iPhone13Pro.jpg", "brandDescription" : "This is iPhone 10", "brandUrl" : "", "brandPrice" : "£900"}
+                ]
+            },
+            { "brandid":"002-03", "name": "Honor",
+                "modelInfo" : [
+                    {"modelid":"002-03-01", "imageid": "HP_Laptop.jfif", "brandDescription" : "This is Honor brand 1", "brandUrl" : "laptop.html", "brandPrice" : "£500"},
+                    {"modelid":"002-03-02", "imageid": "HP_Laptop.jfif", "brandDescription" : "This is Honor brand 2", "brandUrl" : "laptop.html", "brandPrice" : "£500"}
+                ]
+            }
+        ]
+    }
+]

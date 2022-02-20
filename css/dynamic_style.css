@@ -1,0 +1,23 @@
+#openw{
+    background-color: aqua;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#closew{
+    background-color: aqua;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#createwindow{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 396px;
+    height: 65px;
+    background-color: rgb(207, 203, 211);
+}
+

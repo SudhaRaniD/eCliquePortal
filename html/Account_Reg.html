@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/Company_style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="../js/Account_Reg.js"></script>
+
+</head>
+<body>
+    <div class ="Address_header">eClick.com</div>
+    <div class="container1">
+        <div class ="Create_Account">Create Account</div>
+        <div class=" container2">
+          <form name = "form1" action = "Company_index.html"  method= "post">
+        <div class= "DivReg"> 
+            <lable class = "LblDivReg" for="firstName" >First Name</lable>
+                <input type="text" id="firstName" name="firstName" maxlength="100" />
+            
+        </div>
+        <div class= "DivReg">
+            <lable  class = "LblDivReg"  for="surname">Surname</lable>
+                <input type="text" id="surname" name="surname" maxlength="100"  />
+            
+            
+        </div>
+        <div class= "DivReg"> 
+            <lable  class = "LblDivReg"  for="Phone">Phone</lable>
+            <input type="text" id="Phonenum" name="Phonenum" /> 
+        </div>
+        
+
+        <div class= "DivReg">
+            <lable  class = "LblDivReg"  for="Address">House No.</lable>
+            <input type="text" id="Addhousenum" name="Addhousenum"  />
+        </div>
+
+        <div class= "DivReg">
+            <lable  class = "LblDivReg"  for="Address">Building Name</lable>
+            <input type="text" id="Addbuildname" name="Addbuildname" />
+        </div>
+        <div class= "DivReg">
+            <lable  class = "LblDivReg"  for="Address">Street name</lable>
+            <input type="text" id="Addstreetname" name="Addstreetname" />
+        </div>            
+        <div class= "DivReg">
+            <lable  class = "LblDivReg"  for="Address">City</lable>
+            <input type="text" id="Addcityname" name="Addcityname" />
+        </div>
+        <div class= "DivReg">
+            <lable  class = "LblDivReg"  for="Address">Post Code</lable>
+            <input type="text" id="Addpostcode" name="Addpostcode" /> 
+        </div>
+        </div>
+               
+            <div class="submitformR" >
+            <input id="SubmitReg" type="submit" value="Generate_Account" onclick="DisplayName()"; >
+            </div>
+            
+            </form>
+    </div>
+
+
+    
+</body>
+</html>
