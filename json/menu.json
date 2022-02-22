@@ -1,54 +1,78 @@
-[
-    {
-        "id" : "001",
+[{
+        "id": "001",
         "name": "Computers",
-        "brands" : [
-            { "brandid":"001-01", "name":"Samsung",
-                "modelInfo" : [
-                    {"modelid":"001-01-01", "imageid": "samsun_laptop.jfif", "brandDescription" : "This is samsung brand 1", "brandUrl" : "laptop1.html", "brandPrice" : "£500"},
-                    {"modelid":"001-01-02", "imageid": "samsun_laptop.jfif", "brandDescription" : "This is samsung brand 2", "brandUrl" : "laptop1.html", "brandPrice" : "£600"}
+        "brands": [{
+                "brandid": "001-01",
+                "name": "Samsung",
+                "modelInfo": [
+                    { "modelid": "001-01-01", "imageid": "samsung_laptop.jfif", "brandDescription": "RAM 8 GB/ Storage :256GB with full HD Screen.Battery life: Up to 11 hours.Fast storage.", "brandUrl": "laptop1.html", "brandPrice": "£499" },
+                    { "modelid": "001-01-02", "imageid": "samsungnew.png", "brandDescription": "An Intel® Core™ i7 processor alongide 16GB of RAM.512GB SSD boots up apps in a flash.", "brandUrl": "samsungnew.html", "brandPrice": "£1449" }
                 ]
             },
-            { "brandid":"001-02", "name": "Lenevo",
-                "modelInfo" : [
-                    {"modelid":"001-02-01", "imageid": "samsun_laptop.jfif", "brandDescription" : "This is Lenevo brand 1", "brandUrl" : "", "brandPrice" : "£800"},
-                    {"modelid":"001-02-02", "imageid": "samsun_laptop.jfif", "brandDescription" : "This is Lenevo brand 2", "brandUrl" : "", "brandPrice" : "£900"}
+            {
+                "brandid": "001-02",
+                "name": "Lenevo",
+                "modelInfo": [
+                    { "modelid": "001-02-01", "imageid": "Lenovo.jfif", "brandDescription": "AMD A3020e Processor.4GB RAM and 128GBSSD Storage,Full HD screen.Extended battery life.", "brandUrl": "Lenovo.html", "brandPrice": "£399" },
+                    { "modelid": "001-02-02", "imageid": "lenovonew.webp", "brandDescription": "MD Ryzen™ 3 5300U Processor (2.60 GHz up to 3.80 GHz),Windows 11 Home,8GB RAM and 1TB SSD Storage.", "brandUrl": "Lenovonew.html", "brandPrice": "£763" }
                 ]
             },
-            { "brandid":"001-03", "name": "HP",
-                "modelInfo" : [
-                    {"modelid":"001-03-01", "imageid": "HP_Laptop.jfif", "brandDescription" : "This is HP brand 1", "brandUrl" : "laptop.html", "brandPrice" : "£500"},
-                    {"modelid":"001-03-02", "imageid": "HP_Laptop.jfif", "brandDescription" : "This is HP brand 2", "brandUrl" : "laptop.html", "brandPrice" : "£500"}
+            {
+                "brandid": "001-03",
+                "name": "HP",
+                "modelInfo": [
+                    { "modelid": "001-03-01", "imageid": "HP_Laptop.jfif", "brandDescription": "Window11,RAM 4GB,Storage:256GB,10 hours battery life.", "brandUrl": "laptop.html", "brandPrice": "£399" },
+                    { "modelid": "001-03-02", "imageid": "HPnew.webp", "brandDescription": "windoe10,Intel® Core™ i5-1135G7,8GB DDRAM,extended battery life.", "brandUrl": "Hpnew.html", "brandPrice": "£826" }
                 ]
             },
-            { "brandid":"001-04", "name": "Dell",
-                "modelInfo" : [
-                    {"modelid":"001-04-01", "imageid": "HP_Laptop.jfif", "brandDescription" : "This is Dell brand 1"},
-                    {"modelid":"001-04-02", "imageid": "HP_Laptop.jfif", "brandDescription" : "This is Dell brand 2"}
+            {
+                "brandid": "001-04",
+                "name": "Dell",
+                "modelInfo": [
+                    { "modelid": "001-04-01", "imageid": "Dell.jfif", "brandDescription": "Window11,Intel@evo,RAM 16GB,Storage:512GBSSD,Intel Core i7-1185G7", "brandUrl": "dell.html", "brandPrice": "£1299" },
+                    { "modelid": "001-04-02", "imageid": "Dellnew.webp", "brandDescription": "Windows11,Intel@ Core 11 th generation.i5,RAM:8GB/Storage: 256GB SSD", "brandUrl": "dellnew.html", "brandPrice": "£899" }
                 ]
             }
         ]
     },
     {
-        "id" : "002",
+        "id": "002",
         "name": "Mobiles",
-        "brands" : [
-            { "brandid":"002-01", "name":"Samsung",
-                "modelInfo" : [
-                    {"modelid":"002-01-01", "imageid": "samsun_laptop.jfif", "brandDescription" : "This is samsung brand 1", "brandUrl" : "laptop1.html", "brandPrice" : "£500"},
-                    {"modelid":"002-01-02", "imageid": "samsun_laptop.jfif", "brandDescription" : "This is samsung brand 2", "brandUrl" : "laptop1.html", "brandPrice" : "£600"}
+        "brands": [{
+                "brandid": "002-01",
+                "name": "Samsung",
+                "modelInfo": [
+                    { "modelid": "002-01-01", "imageid": "samsungmobile.webp", "brandDescription": " S pen,Dual hybrid Sim, 8GB RAM internal storage 256GB", "brandUrl": "samsung_mobile.html", "brandPrice": "£1149" },
+                    { "modelid": "002-01-02", "imageid": "samsungmobilenew.jpg", "brandDescription": "Daul sim Black, Android 10.0, 4GB RAM , storage 64GB", "brandUrl": "samsungmobilenew.html", "brandPrice": "£155" }
                 ]
             },
-            { "brandid":"002-02", "name": "iPhone",
-                "modelInfo" : [
-                    {"modelid":"002-02-01", "imageid": "iPhone13Pro.jpg", "brandDescription" : "This is iPhone 6s", "brandUrl" : "", "brandPrice" : "£800"},
-                    {"modelid":"002-02-02", "imageid": "iPhone13Pro.jpg", "brandDescription" : "This is iPhone 10", "brandUrl" : "", "brandPrice" : "£900"}
+            {
+                "brandid": "002-02",
+                "name": "iPhone",
+                "modelInfo": [
+                    { "modelid": "002-02-01", "imageid": "iPhone13Pro.jpg", "brandDescription": "Super Retina XDR display,A14 Bionic chip,Wide dual camera,", "brandUrl": "iphone.html", "brandPrice": "£899" },
+                    { "modelid": "002-02-02", "imageid": "iPhonenew.jpg", "brandDescription": "5.4 super retina XR display,A14 Bionic chip,storage 256GB,operating system IOS", "brandUrl": "iphonenew.html", "brandPrice": "£467" }
                 ]
             },
-            { "brandid":"002-03", "name": "Honor",
-                "modelInfo" : [
-                    {"modelid":"002-03-01", "imageid": "HP_Laptop.jfif", "brandDescription" : "This is Honor brand 1", "brandUrl" : "laptop.html", "brandPrice" : "£500"},
-                    {"modelid":"002-03-02", "imageid": "HP_Laptop.jfif", "brandDescription" : "This is Honor brand 2", "brandUrl" : "laptop.html", "brandPrice" : "£500"}
+            {
+                "brandid": "002-03",
+                "name": "Honor",
+                "modelInfo": [{
+                        "modelid": "002-03-01",
+                        "imageid": "honor.jfif",
+                        "brandDescription": "5G network,Dual Sim,,8GB RAM, 128GB Storage,super fast charging",
+                        "brandUrl": "Honormobile.html",
+                        "brandPrice": "£500"
+                    },
+                    { "modelid": "002-03-02", "imageid": "honornew.webp", "brandDescription": "Dual Sim, touch screen,resolution 2340x1080 pixels", "brandUrl": "Honornew.html", "brandPrice": "£370" }
+                ]
+            },
+            {
+                "brandid": "002-04",
+                "name": "Motorola",
+                "modelInfo": [
+                    { "modelid": "002-04-01", "imageid": "motorola.jpg", "brandDescription": "Fast 5G, Quad Lens Camera,Ultra powerful performance,over 40 hours of battery", "brandUrl": "motorola.html", "brandPrice": "£499" },
+                    { "modelid": "002-04-02", "imageid": "motorolanew.webp", "brandDescription": "Fast 5G,Dual Sim, 8GB RAM,Display size 6.6inch,Front camera,rear Camera", "brandUrl": "motorolnew.html", "brandPrice": "£269" }
                 ]
             }
         ]

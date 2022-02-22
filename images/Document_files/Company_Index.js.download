@@ -26,7 +26,6 @@ jQuery(document).ready(function($) {
         });
 
     $(document).on("click", ".submenuid", function(evt) {
-
         var brandId = this.getAttribute("data-brandid");
         var brandName = this.getAttribute("data-brandname");
         console.log(brandId + " - " + brandName);
@@ -108,151 +107,38 @@ jQuery(document).ready(function($) {
     });
 
     // code for popup
-
-    $(".cartAdd").click(function() {
-        var loginid = document.getElementById("loginid");
-        var registerid = document.getElementById("registerid");
-        var registeraddress = document.getElementById("registeraddress");
-        var address_main = document.getElementById("address_main");
-        var mycart = document.getElementById("mycart");
-        mycart.hidden = false;
-        address_main.hidden = true;
-        registerid.hidden === true
-        loginid.hidden = true;
-        registeraddress.hidden = true;
-        $('.hover_bkgr_fricc').show();
-
-    });
-    $(".carttotal").click(function() {
-
-        $('.hover_bkgr_fricc').hide();
-
-    });
-
-    $(".locateaddress").click(function() {
-        var loginid = document.getElementById("loginid");
-        var registerid = document.getElementById("registerid");
-        var registeraddress = document.getElementById("registeraddress");
-        var address_main = document.getElementById("address_main");
-        var mycart = document.getElementById("mycart");
-        address_main.hidden = false;
-        registerid.hidden === true
-        loginid.hidden = true;
-        registeraddress.hidden = true;
-        mycart.hidden = true;
-        $('.hover_bkgr_fricc').show();
-
-    });
-
-    $(".postcodebtn").click(function() {
-
-        $('.hover_bkgr_fricc').hide();
-
-    });
-
-
     $(".trigger_popup_fricc").click(function() {
         var loginid = document.getElementById("loginid");
         var registerid = document.getElementById("registerid");
         var registeraddress = document.getElementById("registeraddress");
-        var address_main = document.getElementById("address_main");
-        var mycart = document.getElementById("mycart");
-        address_main.hidden = true;
         loginid.hidden = false;
         registerid.hidden = true;
         registeraddress.hidden = true;
-        mycart.hidden = true;
+
         $('.hover_bkgr_fricc').show();
     });
     $('.popupCloseButton').click(function() {
         $('.hover_bkgr_fricc').hide();
     });
 
-    $(".SignInBtn").click(function() {
-        var email = document.getElementById("regemail").value;
-        if (email == "") {
-            document.getElementById("message").innerHTML = "Fill the Email ID";
-            return false;
-        }
-        var format4 = /[@]+/;
-        if (email.match(format4)) {
-            // return true;
-        } else {
-            document.getElementById("message").innerHTML = " @is missing ";
-            return false;
-        }
-
-        var pwd = document.getElementById("password").value;
-        //check empty password field  
-        if (pwd == "" || pwd.length <= 0) {
-            document.getElementById("message").innerHTML = "**Fill the password please!";
-            return false;
-        }
-
-        //minimum password length validation  
-        if (pwd.length < 8) {
-            document.getElementById("message").innerHTML = "**Password length must be atleast 8 characters";
-            return false;
-        }
-        if (pwd.length > 15) {
-            document.getElementById("message").innerHTML = "**Password length must not exceed 15 characters";
-            return false;
-        }
-
-        var format1 = /[0-9]+/;
-        if (pwd.match(format1)) {
-            //return true;
-        } else {
-            document.getElementById("message").innerHTML = "Enter one number ";
-            return false;
-        }
-
-        var format2 = /[A-Z]+/;
-        if (pwd.match(format2)) {
-            // return true;
-        } else {
-            document.getElementById("message").innerHTML = "Enter atleast One Capital Letters ";
-            return false;
-        }
-
-        var format = /[!@#$%^&*()_+\-=\[\]{};':\\|,.<>\/?]+/;
-
-        if (pwd.match(format)) {
-            //   return true;
-        } else {
-            document.getElementById("message").innerHTML = "Enter One special character ";
-            return false;
-        }
-
-        if (email === 'dummy@gmail.com' && pwd === 'Dummy@1234') {
-            $('.hover_bkgr_fricc').hide();
-        }
-    });
-
     $(".registerBtn").click(function() {
         var registerid = document.getElementById("registerid");
-        var mycart = document.getElementById("mycart");
         var loginid = document.getElementById("loginid");
         var registeraddress = document.getElementById("registeraddress");
         if (registerid.hidden === true) {
             registerid.hidden = false;
             loginid.hidden = true;
             registeraddress.hidden = true;
-            mycart.hidden = true;
-
         }
     });
-    $(".CreateBtn").click(function() {
+    $(".submitaccountBtn").click(function() {
         var registerid = document.getElementById("registerid");
         var loginid = document.getElementById("loginid");
         var registeraddress = document.getElementById("registeraddress");
-        var mycart = document.getElementById("mycart");
         if (registeraddress.hidden === true) {
             registerid.hidden = true;
             loginid.hidden = true;
             registeraddress.hidden = false;
-            mycart.hidden = true;
-
         }
     });
 
@@ -262,14 +148,6 @@ jQuery(document).ready(function($) {
         registeraddress.hidden = true;
         $('.hover_bkgr_fricc').hide();
     });
-
-    // $(".addbasket").click(function() {
-    //     var dclose = document.getElementById("addbasket")
-    //         // window.opener.location = '/Company_index.html';
-    //     if (dclose = true) {
-    //         window.open() = "Company_index.html";
-    //     };
-    // });
 })
 
 clearSigninName = () => {

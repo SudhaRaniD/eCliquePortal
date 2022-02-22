@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,28 +17,27 @@
     <script src="../js/Company_Index.js"></script>
     <script src="../js/dynamic-script.js"></script>
     <script src="../js/SignIn.js"></script>
+    <script src="../js/Register.js"></script>
 
 </head>
+
 <body>
-   
-    <header  id = "company_name">
-        eClique.co.uk 
-        
-        <div class="mapmarker"><i class="fas fa-map-marker" onclick = "location.href= 'Select_Address.html'"></i><br>Select your store </div>    
-        <div id = "Company_date"></div>
+
+    <header id="company_name">
+        eClique.co.uk
+
+        <div class="mapmarker">
+            <a class="fas fa-map-marker locateaddress"></a><br>Select your store </div>
+        <div id="Company_date"></div>
         <div class="signout">
-            <input type ="button" name="signout" id = "signout" value="SignOut" onclick="clearSigninName()"></div>
-        <!-- <div id="HeaderLeft">
-            <i class="fab fa-facebook-square "></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-instagram"></i>
-        </div> -->
-        
-        <div class = "Myaccount" ><a class="fas fa-user trigger_popup_fricc"></a>SignIn<br>
-            <form name = "form1" action = "Company_index.html"  method= "get">
-            <input type = "text" id = "Myacount" value = "" >
+            <input type="button" name="signout" id="signout" value="SignOut" onclick="clearSigninName()"></div>
+
+        <div class="Myaccount" id="Myaccount">
+            <a class="fas fa-user trigger_popup_fricc"></a>SignIn<br>
+            <form name="form1" action="Company_index.html" method="get">
+                <input type="text" id="Myacount" value="">
             </form>
-             
+
         </div>
 
         <div class="dropdown">
@@ -45,26 +45,39 @@
             </ul>
         </div>
 
-        <div id ="HeaderRightTopAddCart"><input type="text" class="addCartId" id="addCartId" value=""></div>
-        <div id ="HeaderRight"><i class='fas fa-cart-arrow-down'style='font-size:28px'></i><br>Basket</div>
-  </header>
+        <div id="HeaderRightTopAddCart"><input type="text" class="addCartId" id="addCartId" value="" /> </div>
+        <div id="HeaderRight">
+            <a class="fas fa-cart-arrow-down cartAdd style='font-size:28px"></a><br>Basket</div>
+    </header>
 
     <section>
         <div class="custom-banner-image" id="productTableSection">
-            <h1>  Welcome to a world of morden technologies </h1>
+            <h1> Welcome to a world of morden technologies </h1>
+
+            <marquee id="marID" behavior="scroll" direction="left" behaviour="alternate">
+                <img src="../images/HP_Laptop.jfif" width="220" height="180" alt="Natural" />
+                <img src="../images/lenovo.jfif" width="220" height="180" alt="Natural" />
+            </marquee> -->
+            <!-- <marquee>
+                <img src="../images/honor.jfif" width="220" height="180" alt="Natural" />
+                <img src="../images/HP_Laptop.jfif" width="220" height="180" alt="Natural" />
+                <img src="../images/lenovo.jfif" width="220" height="180" alt="Natural" />
+                <img src="../images/honor.jfif" width="220" height="180" alt="Natural" />
+            </marquee> -->
+
         </div>
     </section>
 
     <div>
         <footer>
             <nav class="navfooter" id="navfooter">
-                <div class ="footbutton">Contact</div>
-                <div  class ="footbutton">Career</div>
-                <div  class ="footbutton">About Us</div>
-                <div  class ="footbutton">Product Review</div>
-            </nav> 
+                <div class="footbutton">Contact</div>
+                <div class="footbutton">Career</div>
+                <div class="footbutton">About Us</div>
+                <div class="footbutton">Product Review</div>
+            </nav>
             <div class="FooterCentre">
-                <i class="fab fa-facebook-square "></i>
+                <a href="https://www.facebook.com/EClique-104148338876435"><i class="fab fa-facebook-square "></i></a>
                 <i class="fab fa-twitter-square"></i>
                 <i class="fab fa-instagram"></i>
             </div>
@@ -76,93 +89,132 @@
         <div class="container">
             <div id="loginid">
                 <div class="popupCloseButton">&times;</div>
-                <div class ="Create_Account"><span id = "message" style="color:red; padding-bottom: 10px;"> </span></div>
-                
+                <div class="Create_Account"><span id="message" style="color:red; padding-bottom: 10px;"> </span></div>
+
                 <div class="myform1" style="padding-bottom: 10px;">
-                    <lable for="email" >Email</lable><br>
-                    <input type="email" id="regemail" name="email" /> 
+                    <lable for="email">Email</lable><br>
+                    <input type="email" id="regemail" name="email" />
                 </div>
-                <div class="myform2" >
+                <div class="myform2">
                     <lable for="password">password</lable><br>
                     <input type="password" id="password" name="password" />
-                </div>  
-                <div class="myform3" >
-                    <input type="submit" class="SignInBtn" id="SignInBtn" name="SignInBtn" value="Sign In" onclick="verifyPassword();"/> 
                 </div>
-                <div class ="newuser">
-                    <p id = "newuser">NewUser!!! Please Register</p>
-                    <input type="button" class="registerBtn" value="Register" id="RegisterBtn" name ="RegisterBtn">
+                <div class="myform3">
+                    <input type="submit" class="SignInBtn" id="SignInBtn" name="SignInBtn" value="Sign In" />
                 </div>
-            </div>    
+                <div class="newuser">
+                    <p id="newuser">NewUser!!! Please Register</p>
+                    <input type="button" class="registerBtn" value="Register" id="RegisterBtn" name="RegisterBtn">
+                </div>
+            </div>
             <div id="registerid" hidden="none">
+
                 <div class="popupCloseButton">&times;</div>
-                <div class ="Create_Account">Create Account</div>
-                <div class="myform1" >
-                    <lable for="email" >Email</lable><br>
-                    <input type="email" id="regemail" name="email" /> 
+                <div class="Create_Account"><span id="message1" style="color:red; padding-bottom: 10px;"> </span></div>
+
+                <!-- <div class="Create_Account">Create Account</div> -->
+
+
+                <div class="myform1">
+                    <lable for="email">Email</lable><br>
+                    <input type="email" id="regiemail" name="email" />
                 </div>
-                <div class="myform2" >
+                <div class="myform2">
                     <lable for="password">password</lable><br>
-                    <input type="text" id="password" name="password" /> 
+                    <input type="password" id="password1" name="password1" />
                 </div>
-                <div class="myform3" >
+                <div class="myform3">
                     <lable for="password">Re-enter password</lable><br>
-                    <input type="text" id="Repassword" name="Repassword" /> 
-                </div>
-                <div class="myform4" >
-                    <input type="button" class="submitaccountBtn" id="submit_account" value="Create Account" name ="submitaccountBtn"/>
+                    <input type="password" id="Repassword" name="Repassword" />
+                </div><br><br>
+
+                <div class="myform4">
+                    <input type="button " class="CreateBtn" id="CreateBtn" value="Create Account " name="CreateBtn">
                 </div>
             </div>
+
             <div id="registeraddress" hidden="none">
-                <div class ="Create_Account">Create Account</div>
-                    <div class= "DivReg"> 
-                        <lable class = "LblDivReg" for="firstName" >First Name</lable>
-                            <input type="text" id="firstName" name="firstName" maxlength="100" />
-                        
-                    </div>
-                    <div class= "DivReg">
-                        <lable  class = "LblDivReg"  for="surname">Surname</lable>
-                            <input type="text" id="surname" name="surname" maxlength="100"  />
-                        
-                        
-                    </div>
-                    <div class= "DivReg"> 
-                        <lable  class = "LblDivReg"  for="Phone">Phone</lable>
-                        <input type="text" id="Phonenum" name="Phonenum" /> 
-                    </div>
-                    
-            
-                    <div class= "DivReg">
-                        <lable  class = "LblDivReg"  for="Address">House No.</lable>
-                        <input type="text" id="Addhousenum" name="Addhousenum"  />
-                    </div>
-            
-                    <div class= "DivReg">
-                        <lable  class = "LblDivReg"  for="Address">Building Name</lable>
-                        <input type="text" id="Addbuildname" name="Addbuildname" />
-                    </div>
-                    <div class= "DivReg">
-                        <lable  class = "LblDivReg"  for="Address">Street name</lable>
-                        <input type="text" id="Addstreetname" name="Addstreetname" />
-                    </div>            
-                    <div class= "DivReg">
-                        <lable  class = "LblDivReg"  for="Address">City</lable>
-                        <input type="text" id="Addcityname" name="Addcityname" />
-                    </div>
-                    <div class= "DivReg">
-                        <lable  class = "LblDivReg"  for="Address">Post Code</lable>
-                        <input type="text" id="Addpostcode" name="Addpostcode" /> 
-                    </div>
-                           
-                    <div class="submitformR" >
-                        <input type="button" class="submitRegBtn" id="SubmitReg" value="Generate Account" name ="submitRegBtnBtn"/>
-                    </div>
-                    
+                <div class="popupCloseButton ">&times;</div>
+                <div class="Create_Account ">Create Account</div>
+                <div class="DivReg ">
+                    <lable class="LblDivReg " for="firstName">First Name</lable>
+                    <input type="text " id="firstName" name="firstName" maxlength="100 " />
+
+                </div>
+                <div class="DivReg ">
+                    <lable class="LblDivReg " for="surname">Surname</lable>
+                    <input type="text " id="surname" name="surname" maxlength="100 " />
+
+
+                </div>
+                <div class="DivReg ">
+                    <lable class="LblDivReg " for="Phone">Phone</lable>
+                    <input type="text " id="Phonenum" name="Phonenum" />
+                </div>
+
+
+                <div class="DivReg ">
+                    <lable class="LblDivReg " for="Address">House No.</lable>
+                    <input type="text " id="Addhousenum" name="Addhousenum" />
+                </div>
+
+                <div class="DivReg ">
+                    <lable class="LblDivReg " for="Address">Building Name</lable>
+                    <input type="text " id="Addbuildname" name="Addbuildname" />
+                </div>
+                <div class="DivReg ">
+                    <lable class="LblDivReg " for="Address">Street name</lable>
+                    <input type="text " id="Addstreetname" name="Addstreetname" />
+                </div>
+                <div class="DivReg ">
+                    <lable class="LblDivReg " for="Address">City</lable>
+                    <input type="text " id="Addcityname" name="Addcityname" />
+                </div>
+                <div class="DivReg ">
+                    <lable class="LblDivReg " for="Address ">Post Code</lable>
+                    <input type="text " id="Addpostcode" name="Addpostcode" />
+                </div>
+
+                <div class="submitformR ">
+                    <input type="button" class="submitRegBtn" id="submitRegBtn" value="Generate Account" name="submitRegBtn" />
                 </div>
             </div>
+
+            <div id="address_main" hidden="none">
+                <div class="popupCloseButton ">&times;</div>
+                <div class="Regandsignin ">
+                    <lable>Choose delivery location</lable><br><br>
+                    <input type="button " id="SigninBtnAdd" name="SigninBtnAdd " value="Sign in to select address ">
+                </div><br>
+
+                <div class="postcode ">
+                    <lable>No Address found ?Enter UK post code</lable><br><br>
+                    <input type="text " id="postcdenter" name="postcdenter "><br><br>
+
+                    <div id="postcyodeapply ">
+                        <input type="button " class="postcodebtn" id="postcodebtn " name="postcodebtn " value="Apply ">
+                    </div>
+                </div>
+            </div>
+
+            <div id="mycart" hidden="none">
+                <div class="popupCloseButton ">&times;</div>
+                <label>Cart Total</label>
+                <div class="sumbutton ">
+                    <input type="button " class="carttotal" id="carttotal " value="total " name="carttotal ">
+                </div>
+            </div>
+
+
         </div>
+
+
+
+
     </div>
-  
+
+
+
 </body>
 
 
