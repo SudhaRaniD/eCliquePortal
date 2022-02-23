@@ -25,6 +25,12 @@ header {
     color: white;
 }
 
+.newimg {
+    width: 120px;
+    height: 120px;
+    background-color: darkgrey;
+}
+
 .mapmarker {
     position: absolute;
     left: 15px;
