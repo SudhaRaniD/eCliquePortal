@@ -5,16 +5,16 @@
                 "brandid": "001-01",
                 "name": "Samsung",
                 "modelInfo": [
-                    { "modelid": "001-01-01", "imageid": "samsung_laptop.jfif", "brandDescription": "RAM 8 GB/ Storage :256GB with full HD Screen.Battery life: Up to 11 hours.Fast storage.", "brandUrl": "laptop1.html", "brandPrice": "£499" },
-                    { "modelid": "001-01-02", "imageid": "samsungnew.png", "brandDescription": "An Intel® Core™ i7 processor alongide 16GB of RAM.512GB SSD boots up apps in a flash.", "brandUrl": "samsungnew.html", "brandPrice": "£1449" }
+                    { "modelid": "001-01-01", "imageid": "images/samsung_laptop.jfif", "brandDescription": "RAM 8 GB/ Storage :256GB with full HD Screen.Battery life: Up to 11 hours.Fast storage.", "brandUrl": "populate_Devices/laptop1.html", "brandPrice": "£499" },
+                    { "modelid": "001-01-02", "imageid": "images/samsungnew.png", "brandDescription": "An Intel® Core™ i7 processor alongide 16GB of RAM.512GB SSD boots up apps in a flash.", "brandUrl": "populate_Devices/samsungnew.html", "brandPrice": "£1449" }
                 ]
             },
             {
                 "brandid": "001-02",
                 "name": "Lenevo",
                 "modelInfo": [
-                    { "modelid": "001-02-01", "imageid": "Lenovo.jfif", "brandDescription": "AMD A3020e Processor.4GB RAM and 128GBSSD Storage,Full HD screen.Extended battery life.", "brandUrl": "Lenovo.html", "brandPrice": "£399" },
-                    { "modelid": "001-02-02", "imageid": "lenovonew.webp", "brandDescription": "MD Ryzen™ 3 5300U Processor (2.60 GHz up to 3.80 GHz),Windows 11 Home,8GB RAM and 1TB SSD Storage.", "brandUrl": "Lenovonew.html", "brandPrice": "£763" }
+                    { "modelid": "001-02-01", "imageid": "images/Lenovo.jfif", "brandDescription": "AMD A3020e Processor.4GB RAM and 128GBSSD Storage,Full HD screen.Extended battery life.", "brandUrl": "images/Lenovo.html", "brandPrice": "£399" },
+                    { "modelid": "001-02-02", "imageid": "images/lenovonew.webp", "brandDescription": "MD Ryzen™ 3 5300U Processor (2.60 GHz up to 3.80 GHz),Windows 11 Home,8GB RAM and 1TB SSD Storage.", "brandUrl": "images/Lenovonew.html", "brandPrice": "£763" }
                 ]
             },
             {
