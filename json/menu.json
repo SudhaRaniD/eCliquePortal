@@ -5,7 +5,7 @@
                 "brandid": "001-01",
                 "name": "Samsung",
                 "modelInfo": [
-                    { "modelid": "001-01-01", "imageid": "samsung_laptop.jfif", "brandDescription": "RAM 8 GB/ Storage :256GB with full HD Screen.Battery life: Up to 11 hours.Fast storage.", "brandUrl": "populate_Devices/laptop1.html", "brandPrice": "£499" },
+                    { "modelid": "001-01-01", "imageid": "samsung_laptop.jfif", "brandDescription": "RAM 8 GB/ Storage :256GB with full HD Screen.Battery life: Up to 11 hours.Fast storage.", "brandUrl": "laptop1.html", "brandPrice": "£499" },
                     { "modelid": "001-01-02", "imageid": "samsungnew.png", "brandDescription": "An Intel® Core™ i7 processor alongide 16GB of RAM.512GB SSD boots up apps in a flash.", "brandUrl": "populate_Devices/samsungnew.html", "brandPrice": "£1449" }
                 ]
             },

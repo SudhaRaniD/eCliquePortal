@@ -1,5 +1,8 @@
 jQuery(document).ready(function($) {
 
+    var mypic = new Array("iphonenew.jpg", "motorola.jpg");
+    document.getElementById("")
+
     let cars = ["Saab", "Volvo", "BMW"];
     let firstHashMap = new Map([
         [1, cars],
