@@ -64,14 +64,14 @@ jQuery(document).ready(function($) {
 
 
                             brand.modelInfo.forEach(modelinf => {
-                                tblBody = tblBody + "<tr> <td class='fixed'> <a href=" + "../../populate_Devices/" + modelinf.brandUrl + " target='_blank'> <img src=" + "../images/" + modelinf.imageid + " style='width:100px; height: 100px;' /> </a> </td>";
+                                tblBody = tblBody + "<tr> <td class='fixed'> <a href=" + "../../populate_Devices/" + modelinf.brandUrl + " target='_blank'> <img src=" + "images/" + modelinf.imageid + " style='width:100px; height: 100px;' /> </a> </td>";
                                 tblBody = tblBody + "<td class='flex-item'>" + modelinf.brandDescription + "</td> " +
                                     " <td class='flex-item-price-cart'>" + modelinf.brandPrice + "</td> " +
                                     " <td class='flex-item-price-cart'> " +
                                     " <a href='#' class='modelAddCart' id='modelAddCart' data-model-add=" + modelinf.modelid + " data-brand-add=" + brand.brandid + ">" +
-                                    " <img src='../images/add-to-basket.png' style='width:50px; height: 50px;'/> </a> " +
+                                    " <img src='images/add-to-basket.png' style='width:50px; height: 50px;'/> </a> " +
                                     " <a href='#' class='modelDelCart' id='modelDelCart' data-model-del=" + modelinf.modelid + " data-brand-del=" + brand.brandid + ">" +
-                                    " <img src='../images/remove-from-basket.png' style='width:50px; height: 50px;'/> </a> " +
+                                    " <img src='images/remove-from-basket.png' style='width:50px; height: 50px;'/> </a> " +
                                     " </td> </tr>";
                                 table.innerHTML = tblBody;
                                 productTableSection.appendChild(table);
