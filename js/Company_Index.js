@@ -1,4 +1,14 @@
 jQuery(document).ready(function($) {
+
+    let cars = ["Saab", "Volvo", "BMW"];
+    let firstHashMap = new Map([
+        [1, cars],
+        [2, "sudha"]
+    ]);
+    localStorage.setItem("firstHashMap", firstHashMap);
+
+    console.log(firstHashMap);
+
     const mydate = new Date();
     console.log(mydate);
     document.getElementById("Company_date").innerHTML = mydate.toDateString();
