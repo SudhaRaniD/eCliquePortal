@@ -1,16 +1,31 @@
 jQuery(document).ready(function($) {
 
-    var mypic = new Array("iphonenew.jpg", "motorola.jpg");
-    document.getElementById("")
 
-    let cars = ["Saab", "Volvo", "BMW"];
-    let firstHashMap = new Map([
-        [1, cars],
-        [2, "sudha"]
-    ]);
-    localStorage.setItem("firstHashMap", firstHashMap);
+    let intervalID = setInterval(() => {
+        document.getElementById("newimg").innerHTML = "";
 
-    console.log(firstHashMap);
+        var mypic = new Array("iphonenew.jpg", "motorola.jpg");
+        var randomnum = Math.floor(Math.random() * mypic.length);
+
+        // document.getElementById("newimg") = mypic[randomnum];
+
+        var img = document.createElement("img");
+        img.src = "images/" + mypic[randomnum];
+        img.style = "width:120px; height:120px";
+        var src = document.getElementById("newimg");
+        src.appendChild(img);
+
+    }, 1000);
+
+
+    // let cars = ["Saab", "Volvo", "BMW"];
+    // let firstHashMap = new Map([
+    //     [1, cars],
+    //     [2, "sudha"]
+    // ]);
+    //localStorage.setItem("firstHashMap", firstHashMap);
+
+    // console.log(firstHashMap);
 
     const mydate = new Date();
     console.log(mydate);
