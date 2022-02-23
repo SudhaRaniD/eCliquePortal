@@ -1,18 +1,20 @@
-#openw{
+/* this css hold main page css informaiton */
+
+#openw {
     background-color: aqua;
     font-size: 25px;
     padding: 15px;
     border-radius: 15px;
 }
 
-#closew{
+#closew {
     background-color: aqua;
     font-size: 25px;
     padding: 15px;
     border-radius: 15px;
 }
 
-#createwindow{
+#createwindow {
     position: absolute;
     left: 30px;
     top: 30px;
@@ -20,4 +22,3 @@
     height: 65px;
     background-color: rgb(207, 203, 211);
 }
-

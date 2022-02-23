@@ -1,3 +1,5 @@
+/* this css hold main page css informaiton */
+
 #nav {
     list-style: none inside;
     margin: 0;
@@ -29,11 +31,13 @@
     font-size: 80%;
 }
 
+
 /* smaller font size for sub menu items */
 
 #nav li:hover {
     background: #003f20;
 }
+
 
 /* highlights current hovered list item and the parent list items when hovering over sub menues */
 
@@ -49,11 +53,13 @@
     display: none;
 }
 
+
 /* hides sub-sublists */
 
 #nav li:hover ul {
     display: block;
 }
+
 
 /* shows sublist on hover */
 
@@ -71,23 +77,23 @@
     left: 22%;
     font-size: 15px;
     top: 40px;
-  }
-
+}
 
 .tableProducts {
-    width:100%; 
-    border: 1px solid black; 
+    width: 100%;
+    border: 1px solid black;
     border-radius: 10px;
-} 
+}
 
 .fixed {
-    width: 200px; 
+    width: 200px;
     text-align: center;
     border: 1px solid black;
     border-collapse: collapse;
 }
+
 .flex-item {
-    flex-grow: 1; 
+    flex-grow: 1;
     text-align: left;
     border: 1px solid black;
     border-collapse: collapse;
@@ -96,11 +102,10 @@
 }
 
 .flex-item-price-cart {
-    width: 200px; 
+    width: 200px;
     text-align: center;
     border: 1px solid black;
     border-collapse: collapse;
     vertical-align: text-top;
     padding: 5px;
 }
-
