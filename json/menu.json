@@ -13,8 +13,8 @@
                 "brandid": "001-02",
                 "name": "Lenevo",
                 "modelInfo": [
-                    { "modelid": "001-02-01", "imageid": "Lenovo.jfif", "brandDescription": "AMD A3020e Processor.4GB RAM and 128GBSSD Storage,Full HD screen.Extended battery life.", "brandUrl": "images/Lenovo.html", "brandPrice": "£399" },
-                    { "modelid": "001-02-02", "imageid": "lenovonew.webp", "brandDescription": "MD Ryzen™ 3 5300U Processor (2.60 GHz up to 3.80 GHz),Windows 11 Home,8GB RAM and 1TB SSD Storage.", "brandUrl": "images/Lenovonew.html", "brandPrice": "£763" }
+                    { "modelid": "001-02-01", "imageid": "Lenovo.jfif", "brandDescription": "AMD A3020e Processor.4GB RAM and 128GBSSD Storage,Full HD screen.Extended battery life.", "brandUrl": "/Lenovo.html", "brandPrice": "£399" },
+                    { "modelid": "001-02-02", "imageid": "lenovonew.webp", "brandDescription": "MD Ryzen™ 3 5300U Processor (2.60 GHz up to 3.80 GHz),Windows 11 Home,8GB RAM and 1TB SSD Storage.", "brandUrl": "Lenovonew.html", "brandPrice": "£763" }
                 ]
             },
             {
@@ -30,7 +30,7 @@
                 "name": "Dell",
                 "modelInfo": [
                     { "modelid": "001-04-01", "imageid": "Dell.jfif", "brandDescription": "Window11,Intel@evo,RAM 16GB,Storage:512GBSSD,Intel Core i7-1185G7", "brandUrl": "dell.html", "brandPrice": "£1299" },
-                    { "modelid": "001-04-02", "imageid": "Dellnew.webp", "brandDescription": "Windows11,Intel@ Core 11 th generation.i5,RAM:8GB/Storage: 256GB SSD", "brandUrl": "dellnew.html", "brandPrice": "£899" }
+                    { "modelid": "001-04-02", "imageid": "dellnew.webp", "brandDescription": "Windows11,Intel@ Core 11 th generation.i5,RAM:8GB/Storage: 256GB SSD", "brandUrl": "dellnew.html", "brandPrice": "£899" }
                 ]
             }
         ]
