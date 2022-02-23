@@ -47,7 +47,7 @@ jQuery(document).ready(function($) {
                             table.className = "tableProducts";
                             table.id = "tableProducts";
 
-                            var tblBody = "<tr> <th class='fixed'>Product</th> " +
+                            var tblBody = "<tr> <th class='fixed'>Model</th> " +
                                 " <th class='flex-item'>Description</th> " +
                                 " <th class='flex-item-price-cart'>Price</th> " +
                                 " <th class='flex-item-price-cart'>Add to Cart</th> </tr>";
@@ -152,17 +152,25 @@ jQuery(document).ready(function($) {
 
 
     $(".trigger_popup_fricc").click(function() {
-        var loginid = document.getElementById("loginid");
-        var registerid = document.getElementById("registerid");
-        var registeraddress = document.getElementById("registeraddress");
-        var address_main = document.getElementById("address_main");
-        var mycart = document.getElementById("mycart");
-        address_main.hidden = true;
-        loginid.hidden = false;
-        registerid.hidden = true;
-        registeraddress.hidden = true;
-        mycart.hidden = true;
-        $('.hover_bkgr_fricc').show();
+        if (document.getElementById("signInOut").innerHTML === 'Sign In') {
+            var loginid = document.getElementById("loginid");
+            var registerid = document.getElementById("registerid");
+            var registeraddress = document.getElementById("registeraddress");
+            var address_main = document.getElementById("address_main");
+            var mycart = document.getElementById("mycart");
+            address_main.hidden = true;
+            loginid.hidden = false;
+            registerid.hidden = true;
+            registeraddress.hidden = true;
+            mycart.hidden = true;
+            $('.hover_bkgr_fricc').show();
+        } else {
+            $('.hover_bkgr_fricc').hide();
+            document.getElementById("regemail").value = "";
+            document.getElementById("password").value = "";
+            document.getElementById("Myacount").value = "";
+            document.getElementById("signInOut").innerHTML = 'Sign In'
+        }
     });
     $('.popupCloseButton').click(function() {
         $('.hover_bkgr_fricc').hide();
@@ -225,6 +233,8 @@ jQuery(document).ready(function($) {
         }
 
         if (email === 'dummy@gmail.com' && pwd === 'Dummy@1234') {
+            document.getElementById("Myacount").value = "Dummy";
+            document.getElementById("signInOut").innerHTML = "Sign Out";
             $('.hover_bkgr_fricc').hide();
         }
     });

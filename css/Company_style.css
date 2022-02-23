@@ -53,14 +53,16 @@ header {
 
 #HeaderRight {
     position: absolute;
-    right: 15px;
+    right: 20px;
     top: 33px;
     font-size: 14px;
+    width: 100px;
+    height: 100px;
 }
 
 #addCartId {
     position: absolute;
-    right: 0px;
+    right: 10px;
     border: 0px;
     width: 10px;
     background-color: black;
@@ -96,7 +98,7 @@ i {
 
 #Company_date {
     position: absolute;
-    right: 270px;
+    right: 290px;
     top: 59px;
     color: white;
     font-size: small;
@@ -113,10 +115,10 @@ i {
 .Myaccount {
     position: absolute;
     right: 120px;
-    width: 100px;
+    width: 150px;
     height: 45px;
     top: 10px;
-    font-size: 14px;
+    font-size: 8px;
 }
 
 body {
