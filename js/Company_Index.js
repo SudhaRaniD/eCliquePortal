@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
 
     let menuid = document.getElementById("nav");
 
-    fetch("../json/menu.json")
+    fetch("json/menu.json")
         .then(response => response.json())
         .then(data => {
             data.forEach(element => {
@@ -47,7 +47,7 @@ jQuery(document).ready(function($) {
             tableProducts.remove();
         }
 
-        fetch("../json/menu.json")
+        fetch("json/menu.json")
             .then(response => response.json())
             .then(data => {
                 data.forEach(element => {
