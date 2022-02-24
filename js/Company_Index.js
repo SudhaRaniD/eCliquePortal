@@ -72,6 +72,7 @@ jQuery(document).ready(function($) {
                     element.brands.forEach(brand => {
                         if (brand.modelInfo != undefined && brand.brandid == brandId && brand.name == brandName) {
                             var table = document.createElement('table');
+
                             table.className = "tableProducts";
                             table.id = "tableProducts";
 

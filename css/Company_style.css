@@ -540,4 +540,7 @@ footer {
         display: flex;
         bottom: 29px;
     }
+    #table {
+        width: 100%;
+    }
 }
