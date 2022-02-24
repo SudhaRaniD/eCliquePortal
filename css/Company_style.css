@@ -26,8 +26,8 @@
         }
         
         .newimg {
-            width: 120px;
-            height: 120px;
+            width: 100px;
+            height: 100px;
             background-color: darkgrey;
         }
         
@@ -137,11 +137,11 @@
         
         .welcome {
             text-align: center;
-            color: blueviolet;
+            color: white;
             position: absolute;
-            left: 30%;
-            top: 15%;
-            font-size: 21px;
+            left: 45%;
+            top: 35%;
+            font-size: 25px;
         }
         
         .welcome:hover {
@@ -622,5 +622,13 @@
                 background-color: rgb(194, 233, 243);
                 border-radius: 25px;
                 /* border-style: double; */
+            }
+            .welcome {
+                text-align: center;
+                color: white;
+                position: absolute;
+                left: 50%;
+                top: 25%;
+                font-size: 15px;
             }
         }

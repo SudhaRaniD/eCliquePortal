@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
 
         var img = document.createElement("img");
         img.src = "images/" + mypic[randomnum];
-        img.style = "width:120px; height:120px";
+        img.style = "width:100px; height:100px";
         var src = document.getElementById("newimg");
         src.appendChild(img);
 
