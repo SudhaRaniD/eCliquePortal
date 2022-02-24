@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
     let intervalID = setInterval(() => {
         document.getElementById("newimg").innerHTML = "";
 
-        var mypic = new Array("iphonenew.jpg", "motorola.jpg");
+        var mypic = new Array("iphonenew.jpg", "samsungmobilenew.jpg");
         var randomnum = Math.floor(Math.random() * mypic.length);
 
         // document.getElementById("newimg") = mypic[randomnum];
