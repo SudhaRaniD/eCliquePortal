@@ -4,16 +4,27 @@
         "brands": [{
                 "brandid": "001-01",
                 "name": "Samsung",
-                "modelInfo": [
-                    { "modelid": "001-01-01", "imageid": "samsung_laptop.jfif", "brandDescription": "RAM 8 GB/ Storage :256GB with full HD Screen.Battery life: Up to 11 hours.Fast storage.", "brandUrl": "laptop1.html", "brandPrice": "£499" },
-                    { "modelid": "001-01-02", "imageid": "samsungnew.png", "brandDescription": "An Intel® Core™ i7 processor alongide 16GB of RAM.512GB SSD boots up apps in a flash.", "brandUrl": "populate_Devices/samsungnew.html", "brandPrice": "£1449" }
+                "modelInfo": [{
+                        "modelid": "001-01-01",
+                        "imageid": "samsung_laptop.jfif",
+                        "brandDescription": "RAM 8 GB/ Storage :256GB with full HD Screen.Battery life: Up to 11 hours.Fast storage.",
+                        "brandUrl": "laptop1.html",
+                        "brandPrice": "£499"
+                    },
+                    {
+                        "modelid": "001-01-02",
+                        "imageid": "samsungnew.png",
+                        "brandDescription": "An Intel® Core™ i7 processor alongide 16GB of RAM.512GB SSD boots up apps in a flash.",
+                        "brandUrl": "samsungnew.html",
+                        "brandPrice": "£1449"
+                    }
                 ]
             },
             {
                 "brandid": "001-02",
                 "name": "Lenevo",
                 "modelInfo": [
-                    { "modelid": "001-02-01", "imageid": "Lenovo.jfif", "brandDescription": "AMD A3020e Processor.4GB RAM and 128GBSSD Storage,Full HD screen.Extended battery life.", "brandUrl": "/Lenovo.html", "brandPrice": "£399" },
+                    { "modelid": "001-02-01", "imageid": "Lenovo.jfif", "brandDescription": "AMD A3020e Processor.4GB RAM and 128GBSSD Storage,Full HD screen.Extended battery life.", "brandUrl": "Lenovo.html", "brandPrice": "£399" },
                     { "modelid": "001-02-02", "imageid": "lenovonew.webp", "brandDescription": "MD Ryzen™ 3 5300U Processor (2.60 GHz up to 3.80 GHz),Windows 11 Home,8GB RAM and 1TB SSD Storage.", "brandUrl": "Lenovonew.html", "brandPrice": "£763" }
                 ]
             },
@@ -41,17 +52,39 @@
         "brands": [{
                 "brandid": "002-01",
                 "name": "Samsung",
-                "modelInfo": [
-                    { "modelid": "002-01-01", "imageid": "samsungmobile.webp", "brandDescription": " S pen,Dual hybrid Sim, 8GB RAM internal storage 256GB", "brandUrl": "samsung_mobile.html", "brandPrice": "£1149" },
-                    { "modelid": "002-01-02", "imageid": "samsungmobilenew.jpg", "brandDescription": "Daul sim Black, Android 10.0, 4GB RAM , storage 64GB", "brandUrl": "samsungmobilenew.html", "brandPrice": "£155" }
+                "modelInfo": [{
+                        "modelid": "002-01-01",
+                        "imageid": "samsungmobile.webp",
+                        "brandDescription": " S pen,Dual hybrid Sim, 8GB RAM internal storage 256GB",
+                        "brandUrl": "samsung_mobile.html",
+                        "brandPrice": "£1149"
+                    },
+                    {
+                        "modelid": "002-01-02",
+                        "imageid": "samsungmobilenew.jpg",
+                        "brandDescription": "Daul sim Black, Android 10.0, 4GB RAM , storage 64GB",
+                        "brandUrl": "samsungmobilenew.html",
+                        "brandPrice": "£155"
+                    }
                 ]
             },
             {
                 "brandid": "002-02",
                 "name": "iPhone",
-                "modelInfo": [
-                    { "modelid": "002-02-01", "imageid": "iPhone13Pro.jpg", "brandDescription": "Super Retina XDR display,A14 Bionic chip,Wide dual camera,", "brandUrl": "iphone.html", "brandPrice": "£899" },
-                    { "modelid": "002-02-02", "imageid": "iPhonenew.jpg", "brandDescription": "5.4 super retina XR display,A14 Bionic chip,storage 256GB,operating system IOS", "brandUrl": "iphonenew.html", "brandPrice": "£467" }
+                "modelInfo": [{
+                        "modelid": "002-02-01",
+                        "imageid": "iPhone13Pro.jpg",
+                        "brandDescription": "Super Retina XDR display,A14 Bionic chip,Wide dual camera,",
+                        "brandUrl": "iphone.html",
+                        "brandPrice": "£899"
+                    },
+                    {
+                        "modelid": "002-02-02",
+                        "imageid": "iPhonenew.jpg",
+                        "brandDescription": "5.4 super retina XR display,A14 Bionic chip,storage 256GB,operating system IOS",
+                        "brandUrl": "iphonenew.html",
+                        "brandPrice": "£467"
+                    }
                 ]
             },
             {
@@ -64,15 +97,32 @@
                         "brandUrl": "Honormobile.html",
                         "brandPrice": "£500"
                     },
-                    { "modelid": "002-03-02", "imageid": "honornew.webp", "brandDescription": "Dual Sim, touch screen,resolution 2340x1080 pixels", "brandUrl": "Honornew.html", "brandPrice": "£370" }
+                    {
+                        "modelid": "002-03-02",
+                        "imageid": "honornew.webp",
+                        "brandDescription": "Dual Sim, touch screen,resolution 2340x1080 pixels",
+                        "brandUrl": "Honornew.html",
+                        "brandPrice": "£370"
+                    }
                 ]
             },
             {
                 "brandid": "002-04",
                 "name": "Motorola",
-                "modelInfo": [
-                    { "modelid": "002-04-01", "imageid": "motorola.jpg", "brandDescription": "Fast 5G, Quad Lens Camera,Ultra powerful performance,over 40 hours of battery", "brandUrl": "motorola.html", "brandPrice": "£499" },
-                    { "modelid": "002-04-02", "imageid": "motorolanew.webp", "brandDescription": "Fast 5G,Dual Sim, 8GB RAM,Display size 6.6inch,Front camera,rear Camera", "brandUrl": "motorolnew.html", "brandPrice": "£269" }
+                "modelInfo": [{
+                        "modelid": "002-04-01",
+                        "imageid": "motorola.jpg",
+                        "brandDescription": "Fast 5G, Quad Lens Camera,Ultra powerful performance,over 40 hours of battery",
+                        "brandUrl": "motorola.html",
+                        "brandPrice": "£499"
+                    },
+                    {
+                        "modelid": "002-04-02",
+                        "imageid": "motorolanew.webp",
+                        "brandDescription": "Fast 5G,Dual Sim, 8GB RAM,Display size 6.6inch,Front camera,rear Camera",
+                        "brandUrl": "motorolnew.html",
+                        "brandPrice": "£269"
+                    }
                 ]
             }
         ]

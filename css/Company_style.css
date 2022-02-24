@@ -135,12 +135,16 @@ body {
     color: rgb(52, 126, 187);
 }
 
-h1 {
+.welcome {
     text-align: center;
     color: blueviolet;
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    font-size: 21px;
 }
 
-h1:hover {
+.welcome:hover {
     color: crimson;
     font-weight: bolder;
 }
@@ -428,13 +432,19 @@ footer {
 .navfooter {
     display: flex;
     position: absolute;
-    bottom: 60px;
+    bottom: 2px;
 }
 
 .footbutton {
     margin: 10px;
     padding: auto;
     font-size: 18px;
+}
+
+.Footerbutton1 {
+    margin: 11px 100px;
+    padding: auto;
+    font-size: 30px;
 }
 
 .FooterCentre {
