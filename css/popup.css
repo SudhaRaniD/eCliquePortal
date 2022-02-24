@@ -12,16 +12,17 @@
     z-index: 10000;
 }
 
-.hover_bkgr_fricc .helper {
+
+/* .hover_bkgr_fricc .helper {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
-}
+} */
 
 .hover_bkgr_fricc>div {
     position: absolute;
-    left: 34%;
-    top: 20%;
+    left: 25%;
+    top: 30%;
     width: 400px;
     height: 400px;
     background-color: rgb(194, 233, 243);

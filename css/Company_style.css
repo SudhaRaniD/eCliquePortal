@@ -1,546 +1,626 @@
-/* this css hold main page css informaiton */
-
-.main {
-    margin: 0;
-    width: 100%;
-    overflow-x: hidden;
-    box-sizing: border-box;
-}
-
-.custom-banner-image {
-    background-image: url('../images/shop1.jfif');
-}
-
-.custom-banner-image {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 77.6vh;
-}
-
-header {
-    background-color: black;
-    width: 100%;
-    height: 85px;
-    color: white;
-}
-
-.newimg {
-    width: 120px;
-    height: 120px;
-    background-color: darkgrey;
-}
-
-.mapmarker {
-    position: absolute;
-    left: 15px;
-    top: 37px;
-    font-size: 15px;
-    width: 150px
-}
-
-.signout {
-    position: absolute;
-    left: 185px;
-    top: 55px;
-    font-size: 15px;
-}
-
-#signout {
-    font-size: 12px;
-    color: white;
-    background-color: black;
-}
-
-#HeaderRightTopAddCart {
-    position: absolute;
-    right: 50px;
-    top: 18px;
-    font-size: 18px;
-}
-
-#HeaderRight {
-    position: absolute;
-    right: 20px;
-    top: 33px;
-    font-size: 14px;
-    width: 100px;
-    height: 100px;
-}
-
-#addCartId {
-    position: absolute;
-    right: 10px;
-    border: 0px;
-    width: 10px;
-    background-color: black;
-    color: white;
-}
-
-#Myacount {
-    width: 100%;
-    height: 17px;
-    border-color: black;
-    font-size: 11px;
-    color: white;
-    background-color: black;
-    position: absolute;
-    text-align: center;
-    right: 5px;
-}
-
-#HeaderLeft {
-    display: flex;
-    position: absolute;
-    align-items: center;
-    width: 100%;
-    height: 60px;
-    left: 25px;
-    top: 35px;
-}
-
-i {
-    display: inline-block;
-    margin-right: 1em;
-}
-
-#Company_date {
-    position: absolute;
-    right: 290px;
-    top: 59px;
-    color: white;
-    font-size: small;
-    font-size: 17px;
-}
-
-#company_name {
-    text-align: center;
-    font-size: 29px;
-    color: rgb(238, 240, 247);
-    padding-top: 8px;
-}
-
-.Myaccount {
-    position: absolute;
-    right: 120px;
-    width: 150px;
-    height: 45px;
-    top: 10px;
-    font-size: 8px;
-}
-
-body {
-    background-color: rgb(229, 236, 234);
-    /* width: 100%; */
-    color: rgb(52, 126, 187);
-}
-
-.welcome {
-    text-align: center;
-    color: blueviolet;
-    position: absolute;
-    left: 30%;
-    top: 15%;
-    font-size: 21px;
-}
-
-.welcome:hover {
-    color: crimson;
-    font-weight: bolder;
-}
-
-.Address_main {
-    position: absolute;
-    left: 35%;
-    top: 20%;
-    width: 400px;
-    height: 400px;
-    background-color: rgb(229, 241, 237);
-    border-radius: 5px;
-    border-style: double;
-}
-
-.Address_main h1 {
-    font-size: 26px;
-    color: black;
-    text-align: left;
-    margin-left: 20px;
-}
-
-.Address_main lable {
-    margin-left: 20px;
-}
-
-lable {
-    font-size: 18px;
-    color: black;
-    font-weight: 600;
-}
-
-#email {
-    margin-left: 20px;
-    width: 83%;
-    height: 30px;
-    padding: 6px;
-    border-style: groove;
-    border-radius: 2px;
-    background-color: antiquewhite;
-}
-
-.Regandsignin {
-    position: absolute;
-    width: 100%;
-    /* margin-top: 25%; */
-}
-
-#SigninButton {
-    width: 87%;
-    height: 35px;
-    font-size: 18px;
-    background-color: rgb(145, 224, 198);
-}
-
-.Addform label {
-    margin-left: 20px;
-}
-
-.newuser {
-    position: absolute;
-    top: 70%;
-    height: 100px;
-    width: 100%;
-}
-
-#newuserButton {
-    width: 100%;
-    height: 35px;
-    font-size: 18px;
-    padding: 5px;
-    background-color: rgb(145, 224, 198);
-}
-
-.Regnewuser {
-    position: absolute;
-    top: 25%;
-    left: 5%;
-    width: 348px;
-}
-
-.postcode {
-    position: absolute;
-    top: 35%;
-    width: 100%;
-    height: 200px;
-}
-
-#postcdenter {
-    width: 83%;
-    margin-left: 5%;
-    height: 30px;
-    background-color: aqua;
-}
-
-.postcodeapply {
-    position: absolute;
-    left: 5%;
-    width: 100%;
-    top: 45%;
-}
-
-.Regandsignin {
-    position: absolute;
-    left: 5%;
-    top: 10px;
-}
-
-#postcodebtn {
-    width: 85%;
-    height: 35px;
-    background-color: aqua;
-}
-
-.SignInContinue {
-    position: absolute;
-    left: 5%;
-    top: 40%;
-    width: 100%;
-}
-
-#SigninBtnAdd {
-    width: 85%;
-    height: 30px;
-    font-size: 18px;
-    background-color: aqua;
-}
-
-#RegisterBtn {
-    margin-top: 20px;
-    width: 91%;
-    height: 35px;
-    font-size: 19px;
-    background-color: aqua;
-    cursor: pointer;
-}
-
-#CreateBtn {
-    margin-top: 20px;
-    width: 91%;
-    height: 35px;
-    font-size: 19px;
-    background-color: aqua;
-    cursor: pointer;
-    text-align: center;
-}
-
-#submitRegBtn {
-    margin-top: 20px;
-    width: 91%;
-    height: 35px;
-    font-size: 19px;
-    background-color: aqua;
-    cursor: pointer;
-    text-align: center;
-}
-
-.Address_header {
-    font-size: 20px;
-    position: absolute;
-    top: 14%;
-    left: 41%;
-    color: black;
-    font-weight: 700;
-}
-
-.container {
-    position: absolute;
-    left: 34%;
-    top: 20%;
-    width: 400px;
-    height: 400px;
-    background-color: rgb(150, 211, 235);
-    border-radius: 10px;
-    border-style: double;
-}
-
-.Create_Account {
-    color: black;
-    font-size: 23px;
-    font-weight: 600px;
-    text-align: center;
-    margin-bottom: 8px;
-    border-style: outset;
-    height: 55px;
-    border-radius: 25px;
-}
-
-.myform1 {
-    position: absolute;
-    top: 10%;
-    margin: 15px 10px 15px 10px;
-    width: 100%;
-    font-size: 28px;
-}
-
-.myform2 {
-    position: absolute;
-    top: 28%;
-    margin: 15px 10px 15px 10px;
-    width: 100%;
-    font-size: 28px;
-}
-
-.myform3 {
-    position: absolute;
-    top: 45%;
-    margin: 15px 10px 15px 10px;
-    width: 100%;
-    font-size: 28px;
-}
-
-#SignInBtn {
-    margin-top: 20px;
-    width: 91%;
-    height: 35px;
-    font-size: 19px;
-    background-color: aqua;
-    cursor: pointer;
-}
-
-.myform4 {
-    position: absolute;
-    top: 60%;
-    margin: 15px 10px 15px 10px;
-    width: 100%;
-    font-size: 28px;
-}
-
-#submit_account {
-    width: 89%;
-    height: 35px;
-    font-size: 19px;
-    background-color: aqua;
-    padding: auto;
-    margin-top: 25px;
-}
-
-#regemail {
-    width: 89%;
-    height: 35px;
-    font-size: 19px;
-}
-
-#regiemail {
-    width: 89%;
-    height: 35px;
-    font-size: 19px;
-}
-
-#password {
-    width: 89%;
-    height: 35px;
-    font-size: 19px;
-}
-
-#password1 {
-    width: 89%;
-    height: 35px;
-    font-size: 19px;
-}
-
-#Repassword {
-    width: 89%;
-    height: 35px;
-    font-size: 19px;
-}
-
-footer {
-    background-color: rgb(63, 7, 7);
-    width: 100%;
-    height: 100px;
-    color: white;
-    position: relative;
-}
-
-.footer_right {
-    position: absolute;
-    right: 35px;
-    bottom: 10px;
-    font-size: 20px;
-    color: aqua;
-}
-
-.navfooter {
-    display: flex;
-    position: absolute;
-    bottom: 2px;
-}
-
-.footbutton {
-    margin: 10px;
-    padding: auto;
-    font-size: 18px;
-}
-
-.Footerbutton1 {
-    margin: 11px 100px;
-    padding: auto;
-    font-size: 30px;
-}
-
-.FooterCentre {
-    position: absolute;
-    right: 45%;
-    bottom: 40px;
-}
-
-.container1 {
-    position: absolute;
-    left: 34%;
-    top: 20%;
-    width: 400px;
-    height: 400px;
-    background-color: bisque;
-    border-radius: 3px;
-    border-style: double;
-}
-
-.DivReg {
-    margin-bottom: 10px;
-}
-
-.LblDivReg {
-    display: inline-block;
-    text-align: right;
-    width: 150px;
-}
-
-.submitformR {
-    position: absolute;
-    top: 75%;
-    margin: 15px 10px 15px 10px;
-    width: 100%;
-    font-size: 28px;
-}
-
-#SubmitReg {
-    width: 91%;
-    height: 35px;
-    background-color: aqua;
-    font-size: 17px;
-}
-
-.sumbutton {
-    position: absolute;
-    bottom: 10px;
-    left: 44%;
-    width: 60px;
-    height: 35px;
-}
-
-.carttotal {
-    width: 100%;
-    height: 100%;
-    background-color: aqua;
-}
-
-@media screen and (max-width: 699px) {
-    #company_name {
-        font-size: 15px;
-    }
-    #Company_date {
-        font-size: 13px;
-    }
-    #signInOut {
-        font-size: 15px;
-    }
-    .Myaccount {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-    }
-    #Myacount {
-        width: 40px;
-        height: 14px;
-        border-color: black;
-        font-size: 10px;
-        color: white;
-        background-color: black;
-        position: absolute;
-        text-align: center;
-        left: 33px;
-        top: 34px;
-    }
-    .footbutton {
-        margin-top: 80px;
-        font-size: 15px;
-    }
-    .Footerbutton1 {
-        font-size: 15px;
-        position: absolute;
-        display: flex;
-        bottom: 29px;
-    }
-    #table {
-        width: 100%;
-    }
-}
+        /* this css hold main page css informaiton */
+        
+        .main {
+            margin: 0;
+            width: 100%;
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+        
+        .custom-banner-image {
+            background-image: url('../images/shop1.jfif');
+        }
+        
+        .custom-banner-image {
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 77.6vh;
+        }
+        
+        header {
+            background-color: black;
+            width: 100%;
+            height: 85px;
+            color: white;
+        }
+        
+        .newimg {
+            width: 120px;
+            height: 120px;
+            background-color: darkgrey;
+        }
+        
+        .mapmarker {
+            position: absolute;
+            left: 15px;
+            top: 37px;
+            font-size: 15px;
+            width: 150px
+        }
+        
+        .signout {
+            position: absolute;
+            left: 185px;
+            top: 55px;
+            font-size: 15px;
+        }
+        
+        #signout {
+            font-size: 12px;
+            color: white;
+            background-color: black;
+        }
+        
+        #HeaderRightTopAddCart {
+            position: absolute;
+            right: 50px;
+            top: 18px;
+            font-size: 18px;
+        }
+        
+        #HeaderRight {
+            position: absolute;
+            right: 20px;
+            top: 33px;
+            font-size: 14px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        #addCartId {
+            position: absolute;
+            right: 10px;
+            border: 0px;
+            width: 10px;
+            background-color: black;
+            color: white;
+        }
+        
+        #Myacount {
+            width: 100%;
+            height: 17px;
+            border-color: black;
+            font-size: 11px;
+            color: white;
+            background-color: black;
+            position: absolute;
+            text-align: center;
+            right: 5px;
+        }
+        
+        #HeaderLeft {
+            display: flex;
+            position: absolute;
+            align-items: center;
+            width: 100%;
+            height: 60px;
+            left: 25px;
+            top: 35px;
+        }
+        
+        i {
+            display: inline-block;
+            margin-right: 1em;
+        }
+        
+        #Company_date {
+            position: absolute;
+            right: 290px;
+            top: 59px;
+            color: white;
+            font-size: small;
+            font-size: 17px;
+        }
+        
+        #company_name {
+            text-align: center;
+            font-size: 29px;
+            color: rgb(238, 240, 247);
+            padding-top: 8px;
+        }
+        
+        .Myaccount {
+            position: absolute;
+            right: 120px;
+            width: 150px;
+            height: 45px;
+            top: 10px;
+            font-size: 8px;
+        }
+        
+        body {
+            background-color: rgb(229, 236, 234);
+            /* width: 100%; */
+            color: rgb(52, 126, 187);
+        }
+        
+        .welcome {
+            text-align: center;
+            color: blueviolet;
+            position: absolute;
+            left: 30%;
+            top: 15%;
+            font-size: 21px;
+        }
+        
+        .welcome:hover {
+            color: crimson;
+            font-weight: bolder;
+        }
+        
+        .Address_main {
+            position: absolute;
+            left: 35%;
+            top: 20%;
+            width: 400px;
+            height: 400px;
+            background-color: rgb(229, 241, 237);
+            border-radius: 5px;
+            border-style: double;
+        }
+        
+        .Address_main h1 {
+            font-size: 26px;
+            color: black;
+            text-align: left;
+            margin-left: 20px;
+        }
+        
+        .Address_main lable {
+            margin-left: 20px;
+        }
+        
+        lable {
+            font-size: 18px;
+            color: black;
+            font-weight: 600;
+        }
+        
+        #email {
+            margin-left: 20px;
+            width: 83%;
+            height: 30px;
+            padding: 6px;
+            border-style: groove;
+            border-radius: 2px;
+            background-color: antiquewhite;
+        }
+        
+        .Regandsignin {
+            position: absolute;
+            width: 100%;
+            /* margin-top: 25%; */
+        }
+        
+        #SigninButton {
+            width: 87%;
+            height: 35px;
+            font-size: 18px;
+            background-color: rgb(145, 224, 198);
+        }
+        
+        .Addform label {
+            margin-left: 20px;
+        }
+        
+        .newuser {
+            position: absolute;
+            top: 70%;
+            height: 100px;
+            width: 100%;
+        }
+        
+        #newuserButton {
+            width: 100%;
+            height: 35px;
+            font-size: 18px;
+            padding: 5px;
+            background-color: rgb(145, 224, 198);
+        }
+        
+        .Regnewuser {
+            position: absolute;
+            top: 25%;
+            left: 5%;
+            width: 348px;
+        }
+        
+        .postcode {
+            position: absolute;
+            top: 35%;
+            width: 100%;
+            height: 200px;
+        }
+        
+        #postcdenter {
+            width: 83%;
+            margin-left: 5%;
+            height: 30px;
+            background-color: aqua;
+        }
+        
+        .postcodeapply {
+            position: absolute;
+            left: 5%;
+            width: 100%;
+            top: 45%;
+        }
+        
+        .Regandsignin {
+            position: absolute;
+            left: 5%;
+            top: 10px;
+        }
+        
+        #postcodebtn {
+            width: 85%;
+            height: 35px;
+            background-color: aqua;
+        }
+        
+        .SignInContinue {
+            position: absolute;
+            left: 5%;
+            top: 40%;
+            width: 100%;
+        }
+        
+        #SigninBtnAdd {
+            width: 85%;
+            height: 30px;
+            font-size: 18px;
+            background-color: aqua;
+        }
+        
+        #RegisterBtn {
+            margin-top: 20px;
+            width: 91%;
+            height: 35px;
+            font-size: 19px;
+            background-color: aqua;
+            cursor: pointer;
+        }
+        
+        #CreateBtn {
+            margin-top: 20px;
+            width: 91%;
+            height: 35px;
+            font-size: 19px;
+            background-color: aqua;
+            cursor: pointer;
+            text-align: center;
+        }
+        
+        #submitRegBtn {
+            margin-top: 20px;
+            width: 91%;
+            height: 35px;
+            font-size: 19px;
+            background-color: aqua;
+            cursor: pointer;
+            text-align: center;
+        }
+        
+        .Address_header {
+            font-size: 20px;
+            position: absolute;
+            top: 14%;
+            left: 41%;
+            color: black;
+            font-weight: 700;
+        }
+        /* .container {
+            position: absolute;
+            left: 34%;
+            top: 20%;
+            width: 400px;
+            height: 400px;
+            background-color: rgb(150, 211, 235);
+            border-radius: 10px;
+            border-style: double;
+        } */
+        
+        .Create_Account {
+            color: black;
+            font-size: 23px;
+            font-weight: 600px;
+            text-align: center;
+            margin-bottom: 8px;
+            border-style: outset;
+            height: 55px;
+            border-radius: 25px;
+        }
+        
+        .myform1 {
+            position: absolute;
+            top: 10%;
+            margin: 15px 10px 15px 10px;
+            width: 100%;
+            font-size: 28px;
+        }
+        
+        .myform2 {
+            position: absolute;
+            top: 28%;
+            margin: 15px 10px 15px 10px;
+            width: 100%;
+            font-size: 28px;
+        }
+        
+        .myform3 {
+            position: absolute;
+            top: 45%;
+            margin: 15px 10px 15px 10px;
+            width: 100%;
+            font-size: 28px;
+        }
+        
+        #SignInBtn {
+            margin-top: 20px;
+            width: 91%;
+            height: 35px;
+            font-size: 19px;
+            background-color: aqua;
+            cursor: pointer;
+        }
+        
+        .myform4 {
+            position: absolute;
+            top: 60%;
+            margin: 15px 10px 15px 10px;
+            width: 100%;
+            font-size: 28px;
+        }
+        
+        #submit_account {
+            width: 89%;
+            height: 35px;
+            font-size: 19px;
+            background-color: aqua;
+            padding: auto;
+            margin-top: 25px;
+        }
+        
+        #regemail {
+            width: 89%;
+            height: 35px;
+            font-size: 19px;
+        }
+        
+        #regiemail {
+            width: 89%;
+            height: 35px;
+            font-size: 19px;
+        }
+        
+        #password {
+            width: 89%;
+            height: 35px;
+            font-size: 19px;
+        }
+        
+        #password1 {
+            width: 89%;
+            height: 35px;
+            font-size: 19px;
+        }
+        
+        #Repassword {
+            width: 89%;
+            height: 35px;
+            font-size: 19px;
+        }
+        
+        footer {
+            background-color: rgb(63, 7, 7);
+            width: 100%;
+            height: 100px;
+            color: white;
+            position: relative;
+        }
+        
+        .footer_right {
+            position: absolute;
+            right: 35px;
+            bottom: 10px;
+            font-size: 20px;
+            color: aqua;
+        }
+        
+        .navfooter {
+            display: flex;
+            position: absolute;
+            bottom: 2px;
+        }
+        
+        .footbutton {
+            margin: 10px;
+            padding: auto;
+            font-size: 18px;
+        }
+        
+        .Footerbutton1 {
+            margin: 11px 100px;
+            padding: auto;
+            font-size: 30px;
+        }
+        
+        .FooterCentre {
+            position: absolute;
+            right: 45%;
+            bottom: 40px;
+        }
+        
+        .DivReg {
+            margin-bottom: 10px;
+        }
+        
+        .LblDivReg {
+            display: inline-block;
+            text-align: right;
+            width: 150px;
+        }
+        
+        .submitformR {
+            position: absolute;
+            top: 75%;
+            margin: 15px 10px 15px 10px;
+            width: 100%;
+            font-size: 28px;
+        }
+        
+        #SubmitReg {
+            width: 91%;
+            height: 35px;
+            background-color: aqua;
+            font-size: 17px;
+        }
+        
+        .sumbutton {
+            position: absolute;
+            bottom: 10px;
+            left: 44%;
+            width: 60px;
+            height: 35px;
+        }
+        
+        .carttotal {
+            width: 100%;
+            height: 100%;
+            background-color: aqua;
+        }
+        /* .hover_bkgr_fricc {
+            margin: auto;
+            width: 60%;
+            border: 5px solid #FFFF00;
+            padding: 10px;
+        } */
+        /*    ===============================================================*/
+        
+        .hover_bkgr_fricc {
+            background: rgba(0, 0, 0, .4);
+            cursor: pointer;
+            display: none;
+            height: 100%;
+            position: fixed;
+            text-align: center;
+            top: 0;
+            width: 100%;
+            z-index: 10000;
+        }
+        /* .hover_bkgr_fricc .helper {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        } */
+        
+        .hover_bkgr_fricc>div {
+            position: absolute;
+            left: 25%;
+            top: 30%;
+            width: 400px;
+            height: 400px;
+            background-color: rgb(194, 233, 243);
+            border-radius: 25px;
+            /* border-style: double; */
+        }
+        
+        .popupCloseButton {
+            background-color: #fff;
+            border: 3px solid #999;
+            border-radius: 50px;
+            cursor: pointer;
+            display: inline-block;
+            font-family: arial;
+            font-weight: bold;
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            font-size: 25px;
+            line-height: 30px;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+        }
+        
+        .popupCloseButton:hover {
+            background-color: #ccc;
+        }
+        
+        .trigger_popup_fricc {
+            cursor: pointer;
+            font-size: 20px;
+            margin: 20px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        /*=======================================================*/
+        
+        @media screen and (max-width: 699px) {
+            #company_name {
+                font-size: 15px;
+            }
+            #Company_date {
+                font-size: 13px;
+            }
+            #signInOut {
+                font-size: 15px;
+            }
+            .Myaccount {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+            }
+            #Myacount {
+                width: 40px;
+                height: 14px;
+                border-color: black;
+                font-size: 10px;
+                color: white;
+                background-color: black;
+                position: absolute;
+                text-align: center;
+                left: 33px;
+                top: 34px;
+            }
+            .footbutton {
+                margin-top: 80px;
+                font-size: 15px;
+            }
+            .Footerbutton1 {
+                font-size: 15px;
+                position: absolute;
+                display: flex;
+                bottom: 29px;
+            }
+            #table {
+                width: 100%;
+            }
+            .hover_bkgr_fricc {
+                background: rgba(0, 0, 0, .4);
+                cursor: pointer;
+                display: none;
+                height: 80%;
+                position: fixed;
+                text-align: center;
+                top: 0;
+                width: 100%;
+                z-index: 10000;
+            }
+            /* .hover_bkgr_fricc .helper {
+                display: inline-block;
+                height: 100%;
+                vertical-align: middle;
+            } */
+            .hover_bkgr_fricc>div {
+                position: absolute;
+                left: 10%;
+                top: 30%;
+                width: 310px;
+                height: 530px;
+                background-color: rgb(194, 233, 243);
+                border-radius: 25px;
+                /* border-style: double; */
+            }
+        }
