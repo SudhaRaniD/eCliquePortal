@@ -79,9 +79,9 @@ header {
 
 #Myacount {
     width: 100%;
-    height: 10px;
+    height: 17px;
     border-color: black;
-    font-size: 12px;
+    font-size: 11px;
     color: white;
     background-color: black;
     position: absolute;
@@ -501,4 +501,43 @@ footer {
     width: 100%;
     height: 100%;
     background-color: aqua;
+}
+
+@media screen and (max-width: 699px) {
+    #company_name {
+        font-size: 15px;
+    }
+    #Company_date {
+        font-size: 13px;
+    }
+    #signInOut {
+        font-size: 15px;
+    }
+    .Myaccount {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    #Myacount {
+        width: 40px;
+        height: 14px;
+        border-color: black;
+        font-size: 10px;
+        color: white;
+        background-color: black;
+        position: absolute;
+        text-align: center;
+        left: 33px;
+        top: 34px;
+    }
+    .footbutton {
+        margin-top: 80px;
+        font-size: 15px;
+    }
+    .Footerbutton1 {
+        font-size: 15px;
+        position: absolute;
+        display: flex;
+        bottom: 29px;
+    }
 }
