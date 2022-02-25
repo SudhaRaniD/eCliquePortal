@@ -4,10 +4,8 @@ jQuery(document).ready(function($) {
     let intervalID = setInterval(() => {
         document.getElementById("newimg").innerHTML = "";
 
-        var mypic = new Array("iphonenew.jpg", "samsungmobilenew.jpg");
+        var mypic = new Array("motorola.jpg", "samsungmobilenew.jpg");
         var randomnum = Math.floor(Math.random() * mypic.length);
-
-        // document.getElementById("newimg") = mypic[randomnum];
 
         var img = document.createElement("img");
         img.src = "images/" + mypic[randomnum];
@@ -17,15 +15,6 @@ jQuery(document).ready(function($) {
 
     }, 1000);
 
-
-    // let cars = ["Saab", "Volvo", "BMW"];
-    // let firstHashMap = new Map([
-    //     [1, cars],
-    //     [2, "sudha"]
-    // ]);
-    //localStorage.setItem("firstHashMap", firstHashMap);
-
-    // console.log(firstHashMap);
 
     const mydate = new Date();
     console.log(mydate);
