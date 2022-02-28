@@ -72,7 +72,7 @@ jQuery(document).ready(function($) {
 
 
                             brand.modelInfo.forEach(modelinf => {
-                                tblBody = tblBody + "<tr> <td class='fixed'> <a href=" + "../../populate_Devices/" + modelinf.brandUrl + " target='_blank'> <img src=" + "images/" + modelinf.imageid + " style='width:100px; height: 100px;' /> </a> </td>";
+                                tblBody = tblBody + "<tr> <td class='fixed'> <a href=" + "populate_Devices/" + modelinf.brandUrl + " target='_blank'> <img src=" + "images/" + modelinf.imageid + " style='width:100px; height: 100px;' /> </a> </td>";
                                 tblBody = tblBody + "<td class='flex-item'>" + modelinf.brandDescription + "</td> " +
                                     " <td class='flex-item-price-cart'>" + modelinf.brandPrice + "</td> " +
                                     " <td class='flex-item-price-cart'> " +
